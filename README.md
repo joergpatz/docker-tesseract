@@ -16,7 +16,7 @@ Usage inside the container
 * ``docker run --rm -v `pwd`:/tmp -it --entrypoint /bin/bash joergpatz/tesseract``
     * including imagemagick library for converting files, e.g. `convert -density 300 foobar.pdf foobar.tif`
     
-Alias the docker command
+Alias docker run command
 
 * ``alias tesseract='docker run --rm -v `pwd`:/tmp joergpatz/tesseract'``
 * `tesseract -l eng john3_16.png outputtext`
