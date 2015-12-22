@@ -14,5 +14,4 @@ Usage as executable and extract as [HOCR](https://en.wikipedia.org/wiki/HOCR) fi
 Usage inside the container
 
 * ``docker run --rm -v `pwd`/src:/tmp -it --entrypoint /bin/bash joergpatz/tesseract``
-
-included imagemagick library for converting files `convert -density 300 foobar.pdf foobar.tif`
+    * including imagemagick library for converting files, e.g. `convert -density 300 foobar.pdf foobar.tif`
