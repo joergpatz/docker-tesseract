@@ -1,2 +1,3 @@
-*.log
 .idea
+src/*.txt
+src/*.hocr
