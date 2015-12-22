@@ -5,11 +5,11 @@ Docker container running [tesseract-ocr](https://github.com/tesseract-ocr/tesser
 Usage as executable and extract as txt file
 
 * `docker run --rm joergpatz/tesseract`
-* ``docker run --rm -v `pwd`/src:/tmp joergpatz/tesseract [-l langID] john3_16.png outputtext``
+* ``docker run --rm -v `pwd`/src:/tmp joergpatz/tesseract [-l lang] john3_16.png outputtext``
 
 Usage as executable and extract as [HOCR](https://en.wikipedia.org/wiki/HOCR) file
 
-* ``docker run --rm -v `pwd`/src:/tmp joergpatz/tesseract [-l langID] john3_16.png outputtext hocr``
+* ``docker run --rm -v `pwd`/src:/tmp joergpatz/tesseract [-l lang] john3_16.png outputtext hocr``
 
 Usage inside the container
 
